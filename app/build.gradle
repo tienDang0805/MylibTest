@@ -12,7 +12,7 @@ android {
         minSdk 24
         targetSdk 33
         versionCode 1
-        versionName "1.0.5"
+        versionName "1.0.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -53,7 +53,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.tienDang0805'
                 artifactId = 'MylibTest'
-                version = '1.0.5'
+                version = '1.0.7'
             }
         }
     }
